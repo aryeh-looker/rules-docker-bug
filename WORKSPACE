@@ -53,5 +53,6 @@ http_file(
         # Just an example -- in practice, I'll be pulling other sources that can't be compiled with bazel
         "https://github.com/bazelbuild/rules_docker/archive/refs/tags/v0.25.0.zip"
     ],
-    sha256 = "21210314056de7183fbe8f4dabb3dcbf47f4dee7b76e2770dcc650c88d5846d6"
+    sha256 = "21210314056de7183fbe8f4dabb3dcbf47f4dee7b76e2770dcc650c88d5846d6",
+    downloaded_file_path = "srcs.zip",
 )
